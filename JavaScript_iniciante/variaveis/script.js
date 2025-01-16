@@ -1,15 +1,16 @@
-var nome = 'Andre';
-var idade =  '28';
-var  possuiFaculdade = true
+var nome = "Leandro";
+var idade = "34";
+var possuiFaculdade = true;
 
-console.log(nome, idade, possuiFaculdade) 
+console.log(nome, idade, possuiFaculdade);
 
-var preco  = 25;
+var preco = 25;
 var totalComprado = 5;
 var totalPreco = totalComprado * preco;
 
-console.log(totalPreco)
+console.log(totalPreco);
 
-var sobrenome = 'Mariano', cidade = 'Recife'
+var sobrenome = "Mariano",
+  cidade = "Recife";
 
-console.log(cidade)
+console.log(cidade);
