@@ -11,6 +11,6 @@ var totalPreco = totalComprado * preco;
 console.log(totalPreco);
 
 var sobrenome = "Mariano",
-  cidade = "Recife";
+    cidade = "Recife";
 
-console.log(cidade);
+console.log(sobrenome, cidade);
