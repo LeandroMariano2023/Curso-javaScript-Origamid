@@ -14,3 +14,8 @@ var sobrenome = "Mariano",
     cidade = "Recife";
 
 console.log(sobrenome, cidade);
+
+var semDefinir;
+console.log(semDefinir);
+
+console.log(aindaNaoDefinido); 
