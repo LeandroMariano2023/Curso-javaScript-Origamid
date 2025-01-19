@@ -11,11 +11,21 @@ var totalPreco = totalComprado * preco;
 console.log(totalPreco);
 
 var sobrenome = "Mariano",
-    cidade = "Recife";
+  cidade = "Recife";
 
 console.log(sobrenome, cidade);
 
 var semDefinir;
 console.log(semDefinir);
 
-console.log(aindaNaoDefinido); 
+console.log(aindaNaoDefinido);
+
+//hoisting
+
+console.log(nome);
+var nome = "Leandro";
+// retorna undefined
+
+var profissao = "Designer";
+console.log(profissao);
+// retorna designer
