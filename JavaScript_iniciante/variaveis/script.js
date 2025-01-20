@@ -29,3 +29,16 @@ var nome = "Leandro";
 var profissao = "Designer";
 console.log(profissao);
 // retorna designer
+
+// mudar valor de variavel
+
+var idade2 = 34;
+idade2 = 35;
+console.log(idade2);
+
+let preco2 = 50;
+preco2 = 25;
+console.log(preco2);
+
+const possuiFaculdades = true;
+const possuiFaculdades = false;
