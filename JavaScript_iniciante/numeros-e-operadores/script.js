@@ -48,3 +48,30 @@ console.log(incremento);
 var incremento2 = 5;
 console.log(++incremento2);
 console.log(incremento2);
+
+//exercicio
+
+//qual resultado
+var total = 10 + (5 * 2) / 2 + 20; // 35
+console.log(total);
+
+// cria expressao NaN
+var divisao = "comprei 10" / 2;
+console.log(divisao);
+
+//somar string
+
+var soma = +"200" + 50;
+console.log(soma);
+
+// incrementar valor 5
+
+var incremento = 5;
+console.log(++incremento);
+
+// dividir peso por 2
+
+var numero = +"80" / 2;
+var unidade = "kg";
+var peso = numero + unidade;
+console.log(peso)
