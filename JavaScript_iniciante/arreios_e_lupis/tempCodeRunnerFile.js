@@ -1,12 +1,2 @@
-var videoGames = ["PC", "PS4", "XBOX", "3DS"];
-
-for (var item = 0; item < 4; item++) {
-  console.log(videoGames[item]);
-  if (videoGames[item] === "PS4") {
-    break;
-  }
-}
-
-videoGames.forEach(function (item) {
-  console.log(item);
-});
+var anos = [1959, 1962, 1970, 1994, 2002];
+console.log(anos[2])

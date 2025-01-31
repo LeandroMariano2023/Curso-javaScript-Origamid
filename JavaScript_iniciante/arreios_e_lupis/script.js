@@ -31,14 +31,30 @@ for (var item = 0; item < 4; item++) {
     break;
   }
 }
-
+// forEach
 videoGames.forEach(function (item) {
   console.log(item);
 });
 
 var frutas = ["banana", "pera", "maçã", "abacaxi", "uva"];
 
-frutas.forEach(function (fruta, index) {
+frutas.forEach(function (fruta, index, array) {
   frutas.pop();
   console.log(fruta, index, frutas);
 });
+
+// outra sintaxe
+
+var numero = 0;
+var maximo = 50;
+for (; numero < maximo; ) {
+  console.log(numero);
+  numero++;
+}
+
+//exercicio
+//crie array com os anos que o brasil ganhou a copa
+var anos = [1959, 1962, 1970, 1994, 2002];
+console.log(anos[2]);
+
+//
