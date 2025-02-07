@@ -52,9 +52,16 @@ const img = document.querySelectorAll('img[src^="img/imagem"]');
 console.log(img);
 
 // Selecione todos os links internos (onde o href começa com #)
-const linkInterno = document.querySelectorAll('[href^="#"]'); 
+const linkInterno = document.querySelectorAll('[href^="#"]');
 console.log(linkInterno);
 // Selecione o primeiro h2 dentro de .animais-descricao
-const animais=document.querySelectorAll
+const animais = document.querySelectorAll(".animais-descricao h2");
+const h2Animais = document.querySelectorAll(".animais-descricao");
+console.log(animais);
+console.log(h2Animais);
 
 // Selecione o último p do sit
+const paragrafos = document.querySelectorAll("p");
+console.log(paragrafos.length);
+console.log(paragrafos[8]);
+console.log(paragrafos[--paragrafos.length]);
